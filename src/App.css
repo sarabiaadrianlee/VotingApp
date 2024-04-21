@@ -1,0 +1,252 @@
+.background-container {
+  background-image: url("https://scottacuscustoms.com/wp-content/uploads/2017/07/photo-placeholder-5.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: auto;
+  display: flex;
+  justify-content: space-between; /* Align content to the left */
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  max-width: 800px;
+  width: 50%;
+  margin-left: 20px; /* Adjust the margin as needed for spacing */
+}
+.image-container {
+  width: 50%; /* Occupy the right half of the container */
+}
+
+.background-image {
+  width: 90%;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust height proportionally */
+}
+
+.welcome-message {
+  font-size: 8rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+h2,
+h3 {
+  text-align: left;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+.login-button {
+  background-color: #0047ab; /* Navy blue */
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 00px; /* Adjust indentation */
+}
+
+.login-button:hover {
+  background-color: #002d5a; /* Darker shade of navy blue */
+}
+
+.dashboard-background {
+  background-image: url("https://scottacuscustoms.com/wp-content/uploads/2017/07/photo-placeholder-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* Change height to min-height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Add padding to center content */
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+.connected-grid-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout for mobile */
+  gap: 20px;
+  width: 100%; /* Make container full width */
+  max-width: 800px; /* Limit maximum width */
+  margin: 0 auto;
+}
+.connected-header-container,
+.connected-account-container,
+.remaining-time-container,
+.vote-container {
+  width: 100%; /* Make containers full width */
+  max-width: none; /* Remove maximum width */
+  padding: 20px; /* Add padding */
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+.connected-header-container,
+.connected-account-container {
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.connected-header-container {
+  margin-bottom: 0px; /* Add margin bottom for spacing */
+}
+
+.connected-account-container {
+  /* Adjust margin top for spacing */
+  margin-top: 0px;
+}
+
+.candidates-content {
+  grid-column: span 2;
+  text-align: center;
+  width: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.vote-container {
+  grid-column: span 1;
+  text-align: left;
+  width: 35%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  width: 40%; /* Make button full width */
+
+  padding: 15px 20px; /* Adjust padding */
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px; /* Increase padding for larger button */
+  border-radius: 6px; /* Increase border radius for rounded corners */
+  cursor: pointer;
+  font-size: 18px; /* Increase font size */
+
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.candidates-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse border spacing */
+}
+
+.candidates-table th,
+.candidates-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #dddddd; /* Add borders to cells */
+}
+
+.candidates-table th {
+  background-color: #0e3054ce; /* Change background color to blue */
+  color: #ffffff; /* Change text color to white */
+  font-size: 18px; /* Increase font size for header cells */
+}
+
+/* Optional: Add hover effect to table rows */
+.candidates-table tbody tr:hover {
+  background-color: #0057b3b0;
+}
+
+.input-container {
+  width: 100%; /* Ensure the input container takes up the full width */
+  margin-bottom: 0px;
+  border-radius: 8px; /* Add some spacing below the input field */
+}
+
+.input-field {
+  width: 100%; /* Make input field full width */
+  margin-bottom: 0px;
+  width: 90%; /* Ensure the input field takes up the full width */
+  padding: 15px; /* Increase padding for a larger input field */
+  font-size: 18px; /* Increase font size */
+  border-radius: 6px; /* Apply rounded corners */
+  border: 1px solid #ccc; /* Add a border */
+}
+
+/* Optional: Add focus styles */
+.input-field:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #007bff; /* Change border color on focus */
+}
+.remaining-time-container {
+  text-align: center;
+  width: 40%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 0px; /* Add margin to separate from other sections */
+}
+
+.remaining-time {
+  font-size: 20px; /* Increase font size for better readability */
+  text-align: left;
+}
+
+.remaining-days {
+  font-weight: bold; /* Make the text bold for emphasis */
+}
+
+.remaining-time-details {
+  font-size: 16px; /* Decrease font size for additional details */
+  margin-top: 0px; /* Add margin to separate from the main text */
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .dashboard-background {
+    background-size: cover; /* Ensure background covers the entire screen */
+    padding: 20px; /* Add padding to center content */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+  }
+  .connected-grid-container {
+    grid-template-columns: 1fr; /* Single column layout for mobile */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .connected-header-container,
+  .connected-account-container {
+    width: 100%; /* Make containers full width for mobile */
+  }
+
+  .remaining-time-container {
+    width: 50%; /* Adjust width for better mobile view */
+  }
+
+  .vote-container {
+    width: 50%; /* Adjust width for better mobile view */
+  }
+
+  .login-button {
+    width: 50%; /* Make button full width */
+    padding: 15px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .input-field {
+    width: 40%; /* Make input field full width */
+  }
+}
